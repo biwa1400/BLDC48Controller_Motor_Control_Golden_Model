@@ -1,0 +1,126 @@
+========================================
+ Fixed-point derived configuration
+========================================
+
+ANGLE
+----------------------------------------
+ANGLE_BITS          : 16
+ANGLE_MODULUS       : 65536
+ANGLE_MASK          : 0xFFFF
+ANGLE_90            : 16384
+ANGLE_180           : 32768
+ANGLE_270           : 49152
+Angle resolution    : 0.005493164062 deg/count
+
+ENCODER
+----------------------------------------
+LM10 counts         : 4096
+LM10 bits           : 12
+Encoder angle shift : 4
+Pole pairs          : 3
+
+PHASE ADVANCE
+----------------------------------------
+Requested angle     : 10.000000000000 deg
+Ideal counts        : 1820.444444444444
+Quantized counts    : 1820
+Quantized hex       : 0x071C
+Actual angle        : 9.997558593750 deg
+Error               : -0.002441406250 deg
+
+PHASE OFFSETS
+----------------------------------------
+Phase  1:     0  0x0000    0.00000000 deg  error=+0.00000000 deg
+Phase  2:  2979  0x0BA3   16.36413574 deg  error=+0.00049938 deg
+Phase  3:  5958  0x1746   32.72827148 deg  error=+0.00099876 deg
+Phase  4:  8937  0x22E9   49.09240723 deg  error=+0.00149814 deg
+Phase  5: 11916  0x2E8C   65.45654297 deg  error=+0.00199751 deg
+Phase  6: 14895  0x3A2F   81.82067871 deg  error=+0.00249689 deg
+Phase  7: 17873  0x45D1   98.17932129 deg  error=-0.00249689 deg
+Phase  8: 20852  0x5174  114.54345703 deg  error=-0.00199751 deg
+Phase  9: 23831  0x5D17  130.90759277 deg  error=-0.00149814 deg
+Phase 10: 26810  0x68BA  147.27172852 deg  error=-0.00099876 deg
+Phase 11: 29789  0x745D  163.63586426 deg  error=-0.00049938 deg
+Phase 12: 32768  0x8000  180.00000000 deg  error=+0.00000000 deg
+Phase 13: 35747  0x8BA3  196.36413574 deg  error=+0.00049938 deg
+Phase 14: 38726  0x9746  212.72827148 deg  error=+0.00099876 deg
+Phase 15: 41705  0xA2E9  229.09240723 deg  error=+0.00149814 deg
+Phase 16: 44684  0xAE8C  245.45654297 deg  error=+0.00199751 deg
+Phase 17: 47663  0xBA2F  261.82067871 deg  error=+0.00249689 deg
+Phase 18: 50641  0xC5D1  278.17932129 deg  error=-0.00249689 deg
+Phase 19: 53620  0xD174  294.54345703 deg  error=-0.00199751 deg
+Phase 20: 56599  0xDD17  310.90759277 deg  error=-0.00149814 deg
+Phase 21: 59578  0xE8BA  327.27172852 deg  error=-0.00099876 deg
+Phase 22: 62557  0xF45D  343.63586426 deg  error=-0.00049938 deg
+
+WAVEFORM LUT
+----------------------------------------
+Address bits        : 12
+Data bits           : 13
+Depth               : 4096
+Scale               : 4096
+Storage max         : 8191
+Angle counts/address: 8
+Address shift       : 3
+
+AMPLITUDE
+----------------------------------------
+Storage bits        : 13
+Fraction bits       : 12
+Scale               : 4096
+Maximum command     : 4096
+Storage max         : 8191
+
+CLOCKS
+----------------------------------------
+Calculation clock   : 50000000 Hz
+PWM / gate clock    : 200000000 Hz
+PWM / CALC ratio    : 4:1
+PWM clock period    : 5.000000 ns
+
+PWM
+----------------------------------------
+Requested frequency : 15000.000000 Hz
+Ideal TOP           : 6666.666666666667
+PWM TOP             : 6666
+PWM CENTER          : 3333
+Period clocks       : 13332
+Actual frequency    : 15001.500150015 Hz
+Frequency error     : +1.500150015 Hz
+Frequency error     : +0.010001000 %
+PWM period          : 66.660000000 us
+
+FIXED-POINT SCALING
+----------------------------------------
+Scale denominator   : 2^24
+Scale denominator   : 16777216
+Rounding mode       : ROUND_HALF_UP
+Rounding bias       : 8388608
+W*A product bits    : 26
+Maximum legal W*A   : 16777216
+Scaled value bits   : 36
+Maximum scaled value: 55918460928
+
+DEADTIME
+----------------------------------------
+LH requested        : 40.000000 ns
+LH clocks           : 8
+LH actual           : 40.000000 ns
+LH error            : +0.000000 ns
+HL requested        : 40.000000 ns
+HL clocks           : 8
+HL actual           : 40.000000 ns
+HL error            : +0.000000 ns
+
+CALCULATION TIMING
+----------------------------------------
+Clocks / phase      : 9
+Clocks / batch      : 198
+Batch time          : 3.960000 us
+Frame utilization   : 5.940594 %
+
+VALIDATION
+----------------------------------------
+Architecture validation: PASS
+
+========================================
